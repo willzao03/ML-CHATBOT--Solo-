@@ -1,0 +1,101 @@
+intencao,resposta,confianca
+despedida,Até logo!,0.8
+reclamacao,Lamento o inconveniente.,0.94
+saudacao,Bem-vindo!,0.78
+despedida,Volte sempre!,0.87
+informacao,Confira os dados.,0.94
+reclamacao,Vamos resolver isso.,0.79
+ajuda,Como posso ajudar?,0.93
+ajuda,Diga-me o que precisa.,0.88
+reclamacao,Vamos resolver isso.,0.91
+saudacao,Olá!,0.94
+reclamacao,Vamos resolver isso.,0.92
+ajuda,Estou aqui para ajudar!,0.92
+saudacao,Bem-vindo!,0.71
+ajuda,Diga-me o que precisa.,0.71
+ajuda,Estou aqui para ajudar!,0.81
+informacao,Veja os detalhes.,0.77
+ajuda,Como posso ajudar?,0.82
+informacao,Confira os dados.,0.99
+despedida,Volte sempre!,0.93
+ajuda,Estou aqui para ajudar!,1.0
+despedida,Até logo!,0.72
+despedida,Tchau!,0.78
+reclamacao,Vamos resolver isso.,0.99
+ajuda,Estou aqui para ajudar!,0.72
+ajuda,Estou aqui para ajudar!,0.92
+despedida,Até logo!,0.76
+reclamacao,Lamento o inconveniente.,0.89
+saudacao,Olá!,0.97
+ajuda,Estou aqui para ajudar!,0.86
+informacao,Confira os dados.,0.92
+informacao,Veja os detalhes.,0.8
+reclamacao,Vamos resolver isso.,0.77
+ajuda,Como posso ajudar?,0.86
+reclamacao,Vamos resolver isso.,0.93
+informacao,Aqui está a informação.,0.78
+ajuda,Como posso ajudar?,0.8
+ajuda,Como posso ajudar?,0.91
+saudacao,Olá!,0.76
+ajuda,Estou aqui para ajudar!,0.79
+reclamacao,Vamos resolver isso.,0.72
+despedida,Até logo!,0.77
+reclamacao,Vamos resolver isso.,0.82
+ajuda,Estou aqui para ajudar!,1.0
+informacao,Confira os dados.,0.99
+informacao,Aqui está a informação.,0.8
+saudacao,"Oi, como posso ajudar?",0.84
+despedida,Tchau!,0.94
+ajuda,Estou aqui para ajudar!,0.99
+saudacao,Bem-vindo!,0.81
+informacao,Confira os dados.,0.81
+ajuda,Diga-me o que precisa.,0.98
+ajuda,Diga-me o que precisa.,0.74
+ajuda,Diga-me o que precisa.,0.73
+reclamacao,Lamento o inconveniente.,0.78
+reclamacao,Lamento o inconveniente.,0.76
+saudacao,"Oi, como posso ajudar?",0.99
+reclamacao,Lamento o inconveniente.,0.86
+despedida,Até logo!,0.98
+saudacao,Bem-vindo!,0.83
+saudacao,"Oi, como posso ajudar?",0.9
+informacao,Veja os detalhes.,0.89
+reclamacao,Desculpe pelo problema.,0.74
+ajuda,Diga-me o que precisa.,0.97
+informacao,Confira os dados.,0.91
+reclamacao,Desculpe pelo problema.,0.97
+reclamacao,Vamos resolver isso.,0.73
+reclamacao,Desculpe pelo problema.,0.81
+saudacao,"Oi, como posso ajudar?",0.92
+despedida,Volte sempre!,0.72
+informacao,Veja os detalhes.,0.73
+reclamacao,Desculpe pelo problema.,0.99
+reclamacao,Vamos resolver isso.,0.87
+informacao,Confira os dados.,0.97
+informacao,Confira os dados.,0.86
+saudacao,Olá!,0.81
+informacao,Aqui está a informação.,0.83
+ajuda,Diga-me o que precisa.,0.76
+ajuda,Como posso ajudar?,0.83
+reclamacao,Lamento o inconveniente.,0.87
+ajuda,Estou aqui para ajudar!,0.7
+saudacao,Bem-vindo!,0.93
+reclamacao,Vamos resolver isso.,0.86
+reclamacao,Desculpe pelo problema.,0.8
+ajuda,Diga-me o que precisa.,0.97
+reclamacao,Lamento o inconveniente.,0.93
+saudacao,Bem-vindo!,0.73
+ajuda,Como posso ajudar?,0.85
+saudacao,Bem-vindo!,0.92
+reclamacao,Vamos resolver isso.,1.0
+informacao,Veja os detalhes.,0.97
+saudacao,Bem-vindo!,0.72
+reclamacao,Vamos resolver isso.,0.72
+ajuda,Diga-me o que precisa.,0.79
+saudacao,"Oi, como posso ajudar?",0.73
+informacao,Aqui está a informação.,0.82
+despedida,Tchau!,0.9
+informacao,Confira os dados.,0.79
+ajuda,Como posso ajudar?,0.87
+informacao,Confira os dados.,0.74
+ajuda,Diga-me o que precisa.,0.75
