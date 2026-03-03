@@ -99,7 +99,7 @@ python previsao_precos.py
 
 ## 👤 Autor
 
-William - [@willzao03](https://github.com/willzao03)
+Willian - [@willzao03](https://github.com/willzao03)
 
 ## 📄 Licença
 
