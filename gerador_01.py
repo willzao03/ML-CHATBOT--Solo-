@@ -1,37 +1,24 @@
 import pandas as pd
-import random
+import numpy as np
 
-# Gerar dados fictícios para chatbot
-def gerar_dados_chatbot(num_registros=100):
-    intencoes = ['saudacao', 'despedida', 'ajuda', 'informacao', 'reclamacao']
-    respostas = {
-        'saudacao': ['Olá!', 'Oi, como posso ajudar?', 'Bem-vindo!'],
-        'despedida': ['Até logo!', 'Tchau!', 'Volte sempre!'],
-        'ajuda': ['Como posso ajudar?', 'Estou aqui para ajudar!', 'Diga-me o que precisa.'],
-        'informacao': ['Aqui está a informação.', 'Veja os detalhes.', 'Confira os dados.'],
-        'reclamacao': ['Lamento o inconveniente.', 'Vamos resolver isso.', 'Desculpe pelo problema.']
+def generate_chatbot_data(n=100):
+    data = {
+        'comprimento_msg': np.random.randint(10, 150, n),
+        'contem_exclamacao': np.random.choice([0, 1], n),
+        'palavras_negativas': np.random.randint(0, 5, n),
+        'label': []  # 0: Dúvida, 1: Reclamação
     }
     
-    dados = []
-    for _ in range(num_registros):
-        intencao = random.choice(intencoes)
-        resposta = random.choice(respostas[intencao])
-        confianca = random.uniform(0.7, 1.0)
-        
-        dados.append({
-            'intencao': intencao,
-            'resposta': resposta,
-            'confianca': round(confianca, 2)
-        })
+    for i in range(n):
+        # Regra oculta para o modelo descobrir
+        if data['palavras_negativas'][i] > 2 or (data['contem_exclamacao'][i] == 1 and data['comprimento_msg'][i] > 100):
+            data['label'].append(1)
+        else:
+            data['label'].append(0)
     
-    df = pd.DataFrame(dados)
-    df.to_csv('chatbot_data.csv', index=False)
-    print(f"✓ Arquivo 'chatbot_data.csv' gerado com {num_registros} registros!")
-    return df
+    return pd.DataFrame(data)
 
-if __name__ == "__main__":
-    df = gerar_dados_chatbot(100)
-    print("\nPrimeiras linhas do dataset:")
-    print(df.head())
-    print(f"\nDistribuição de intenções:")
-    print(df['intencao'].value_counts())
+# Gerando o arquivo para a aula
+df = generate_chatbot_data(200)
+df.to_csv('chatbot_data.csv', index=False)
+print("Dataset 'chatbot_data.csv' gerado com sucesso!")
